@@ -16,3 +16,15 @@ class Student(object):
 
 def main():
     # 创建学生并指定名字
+    stu1 = Student("Pao", 25)
+    # 学习
+    stu1.study('Python程序设计')
+    stu1.watch_av()
+    stu2 = Student("rourou", 16)
+    stu2.study("思想品德")
+    stu2.watch_av()
+
+
+if __name__ == '__main__':
+    main()
+
